@@ -37,6 +37,38 @@
   }
 }
 
+.nav-link {
+  text-align: center !important;
+}
+.btn-close {
+  font-size: 1.5em;
+  margin-right: 0.5em !important;
+  margin-top: 0.1em !important;
+}
+.hero-topic {
+  font-size: 100px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-topic {
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+
+.heading {
+  color: #ff00d8;
+  font-size: 100px;
+  font-weight: 700;
+}
+
 .mintButton {
   background-color: #ff00d8 !important;
   color: white !important;
@@ -44,8 +76,32 @@
   padding-left: 3em !important;
   font-weight: 700 !important;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 1em;
+  transition: all 0.25s;
 }
 .mintButton:hover {
   background-color: rgb(231, 223, 204) !important;
-  color: #282c34 !important;
+  color: #040405 !important;
+  transition: all 0.25s;
+}
+
+.navbar > .container {
+  width: auto !important;
+}
+
+.paraStyle {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 0px !important;
+}
+
+.navLinkStyle {
+  font-size: 2em;
+  color: #ff00d8 !important;
+  transition: all 0.25s;
+}
+
+.navLinkStyle:hover {
+  letter-spacing: 5px;
+  transition: all 0.25s;
 }
